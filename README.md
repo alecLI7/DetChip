@@ -1,7 +1,7 @@
 # DetChip
 A Deterministic Embedded End-system Tightly Coupled with TSN Schedule
 
-<div align="center"><img src="Doc/DetChipArc.png" alt="DetChip architecture overview" width=370></div>
+<div align="center"><img src="Doc/DetChipArc.png" alt="DetChip architecture overview"></div>
 
 DetChip (Deterministic Chip) is a deterministic on-chip architecture for embedded end-systems in Time-Sensitive Networking (TSN)[1]. Based on DetChip, we formalize the execution ability of end-systems as end-system constraints (ECs) to co-schedule end-systems and the TSN network. This repository includes the Verilog code implementing DetChip, the software testing usecases, and ITP[2]-based ECs implementation. 
 
