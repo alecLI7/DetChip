@@ -676,7 +676,7 @@ TIMER_MG TIMER_MG
 
 
 
-sys_ins_ram SYS_RAM(
+bram_32768x32 SYS_RAM(
  .clka                      (i_rv_clk                               )
 ,.ena                       (w_a_sys_mem_en                         )
 ,.regcea                    (1'b1                                   )
@@ -694,7 +694,7 @@ sys_ins_ram SYS_RAM(
 );
 
                     
-adpsram4096x32rq RX_RAM(
+bram_4096x32 BE_RX_RAM(
  .clka                      (i_rv_clk                               )
 ,.rsta                      (~i_rv_rst_n                            )
 ,.ena                       (w_a_rx_mem_en                          )
@@ -712,7 +712,7 @@ adpsram4096x32rq RX_RAM(
 );
 
 
-adpsram2048x32rq TX_RAM(
+bram_2048x32 BE_TX_RAM(
  .clka                      (i_rv_clk                               )
 ,.rsta                      (~i_rv_rst_n                            )
 ,.ena                       (w_a_tx_mem_en                          )
@@ -729,7 +729,7 @@ adpsram2048x32rq TX_RAM(
 ,.doutb                     (w_b_tx_mem_dout                        )
 );
 
-adpsram4096x32rq TS_RX_RAM(
+bram_4096x32 TS_RX_RAM(
  .clka                      (i_rv_clk                               )
 ,.rsta                      (~i_rv_rst_n                            )
 ,.ena                       (w_ts_a_rx_mem_en                       )
@@ -747,7 +747,7 @@ adpsram4096x32rq TS_RX_RAM(
 );
 
 
-adpsram2048x32rq TS_TX_RAM(
+bram_2048x32 TS_TX_RAM(
  .clka                      (i_rv_clk                               )
 ,.rsta                      (~i_rv_rst_n                            )
 ,.ena                       (w_ts_a_tx_mem_en                       )
