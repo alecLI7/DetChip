@@ -1,5 +1,5 @@
 # DetChip
-A Deterministic Embedded End-system Tightly Coupled with TSN Schedule
+A Deterministic Embedded End-system Tightly Coupled with TSN Schedule.
 
 <div align="center"><img src="Doc/DetChipArc.svg" alt="DetChip architecture overview" width=370></div>
 
@@ -8,6 +8,14 @@ DetChip (Deterministic Chip) is a deterministic on-chip architecture for embedde
 
 ## Files in this Repository
 
+#### Doc/
+
+Design details of DetChip.
+
+#### End-system_Constraints/
+
+Proposed constants.
+
 #### Hardware/
 
 Verilog source codes of Detchip.
@@ -15,10 +23,6 @@ Verilog source codes of Detchip.
 #### Software/
 
 Testing usecases.
-
-#### End-system_Constraints/
-
-Proposed constants.
 
 
 ## Citation
