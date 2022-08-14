@@ -27,9 +27,9 @@ Please include this citation if you use the reproduced codes as part of your pro
 
 ### Files Organization
 
-  - `tsn-sched-line`: line topology.
-  - `tsn-sched-ring`: ring topology.
-  - `tsn-sched-snow`: snowflake topology.
+  - `tsn-sched-line/`: line topology.
+  - `tsn-sched-line/`: ring topology.
+  - `tsn-sched-line/`: snowflake topology.
 
 ### Usage
 
