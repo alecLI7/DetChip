@@ -36,7 +36,10 @@ We suggest following the steps given by PicoRV32 ([Building a pure RV32I Toolcha
 We set up a compile script `domk.sh` in each test folder (e.g. `Firmware(receiver)/`). 
 
 Example:
+
+```
   cd ./Firmware(receiver)/
   ./domk.sh
+```
 
 Five result files will be generated when the compilation is successfully done, which include `firmware.bin`, `firmware.dis`, `firmware.elf`, `firmware.hex` and `firmware.map`. The `firmware.dis` shows the assembly instructions for the test program. The `firmware.hex` contains the machine instructions for the test program, and each line represents a 32-bit hexadecimal instruction. The content of the `firmware.hex` needs to be stored into the instruction RAM of the RISC-V Processor.
