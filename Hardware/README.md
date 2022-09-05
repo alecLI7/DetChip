@@ -16,9 +16,12 @@ The Verilog files in this path contains the following Verilog modules:
 
 ### Interface Timing Diagram
 
+The interface timing of `DTECHIP_TOP` module is shown in the following diagram.
+
 <div align="left"><img src="../Doc/DetChip_wavedrom.svg" alt="DetChip Interface Timing Diagram" width=770></div>
 
 <!-- 
+https://wavedrom.com/editor.html
 {signal: [
   {name: 'i_rv_clk',           wave: 'pP.....|..........|..'},
   {name: 'i_rv_rst_n',         wave: '10.1...|..........|..'},
