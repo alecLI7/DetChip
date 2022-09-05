@@ -16,7 +16,7 @@ The Verilog files in this path contains the following Verilog modules:
 
 ### Interface Timing Diagram
 
-<div align="center"><img src="Doc/DetChip_wavedrom.svg" alt="DetChip Interface Timing Diagram" width=370></div>
+<div align="center"><img src="../Doc/DetChip_wavedrom.svg" alt="DetChip Interface Timing Diagram" width=370></div>
 
 <!-- 
 {signal: [
