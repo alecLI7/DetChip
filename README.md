@@ -29,11 +29,16 @@ Testing usecases.
 Please include this citation if you use this work as part of your project:
 
 ```
-@inproceedings{DetChip,
-	title={A Deterministic Embedded End-system Tightly Coupled with TSN Schedule},
-	author={Chenglong Li, Zonghui Li, Tao Li, Cunlu Li, and Baosheng Wang},
-	booktitle={},
-	year={2022}
+@article{journals/tcad/DetChip23,
+  author    = {Chenglong Li, Zonghui Li, Tao Li, Cunlu Li, and Baosheng Wang},
+  title     = {A Deterministic Embedded End-system Tightly Coupled with TSN Schedule},
+  journal   = {{IEEE} Trans. Comput. Aided Des. Integr. Circuits Syst.},
+  volume    = {early access},
+  number    = {},
+  pages     = {},
+  year      = {2023},
+  url       = {https://doi.org/10.1109/TCAD.2023.3248500},
+  doi       = {10.1109/10.1109/TCAD.2023.3248500},
 }
 ```
 
