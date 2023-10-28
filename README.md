@@ -30,16 +30,14 @@ Please include this citation if you use this work as part of your project:
 
 ```
 @article{journals/tcad/DetChip23,
-  author    = {Chenglong Li, Zonghui Li, Tao Li, Cunlu Li, and Baosheng Wang},
-  title     = {A Deterministic Embedded End-system Tightly Coupled with TSN Schedule},
-  journal   = {{IEEE} Trans. Comput. Aided Des. Integr. Circuits Syst.},
-  volume    = {early access},
-  number    = {},
-  pages     = {},
-  year      = {2023},
-  url       = {https://doi.org/10.1109/TCAD.2023.3248500},
-  doi       = {10.1109/10.1109/TCAD.2023.3248500},
-}
+  author={Li, Chenglong and Li, Zonghui and Li, Tao and Li, Cunlu and Wang, Baosheng},
+  journal={IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems}, 
+  title={A Deterministic Embedded End-System Tightly Coupled With TSN Schedule}, 
+  year={2023},
+  volume={42},
+  number={11},
+  pages={3707-3719},
+  doi={10.1109/TCAD.2023.3248500}}
 ```
 
 ## References
